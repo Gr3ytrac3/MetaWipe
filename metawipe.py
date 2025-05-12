@@ -2,17 +2,27 @@
 import os
 import subprocess
 import sys
-from pyfiglet import Figlet
+from rich.console import Console
+from rich.text import Text
 
+# Supported image formats
 SUPPORTED_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.tiff', '.bmp', '.gif', '.webp')
 
 def banner():
-    fig = Figlet(font='slant')  # Other good options: 'big', 'ansi_shadow', 'banner3-D'
-    print(fig.renderText("MetaWipe"))
-    print("=== Metadata Wiper CLI Tool ===")
-    print("  - Wipe metadata from a single image")
-    print("  - Wipe metadata from all images in a folder")
-    print("  - Uses exiftool\n")
+    console = Console()
+
+    # Stylized green blocky banner
+    title = Text("META WIPE", style="bold green")
+    console.print(title, justify="center")
+
+    # Optional quote
+    quote = Text('"Clean images. Clean conscience."', style="italic yellow")
+    console.print(quote, justify="center")
+
+    # Feature list
+    console.print("\n[bold cyan] - Wipe metadata from a single image")
+    console.print("[bold cyan] - Wipe metadata from all images in a folder")
+    console.print("[bold cyan] - Uses exiftool\n")
 
 def get_images_from_folder(folder_path):
     images = []
@@ -32,13 +42,12 @@ def wipe_metadata(image_path):
 
 def main():
     banner()
-    path = input("Enter the path to the image or folder: ").strip()
+    path = input("\n📂 Enter the path to the image or folder: ").strip()
 
     if not os.path.exists(path):
         print("[!] Path does not exist.")
         sys.exit(1)
 
-    images = []
     if os.path.isfile(path) and path.lower().endswith(SUPPORTED_EXTENSIONS):
         images = [path]
     elif os.path.isdir(path):
