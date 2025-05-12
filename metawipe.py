@@ -4,25 +4,30 @@ import subprocess
 import sys
 from rich.console import Console
 from rich.text import Text
+from pyfiglet import Figlet
 
 # Supported image formats
 SUPPORTED_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.tiff', '.bmp', '.gif', '.webp')
 
+
 def banner():
     console = Console()
+    fig = Figlet(font="big")  # Try 'block', 'big', or 'ansi_shadow'
 
-    # Stylized green blocky banner
-    title = Text("META WIPE", style="bold green")
-    console.print(title, justify="center")
+    banner_text = fig.renderText("META WIPE")
+    console.print(f"[bold green]{banner_text}[/bold green]")
 
-    # Optional quote
     quote = Text('"Clean images. Clean conscience."', style="italic yellow")
     console.print(quote, justify="center")
 
-    # Feature list
     console.print("\n[bold cyan] - Wipe metadata from a single image")
     console.print("[bold cyan] - Wipe metadata from all images in a folder")
     console.print("[bold cyan] - Uses exiftool\n")
+
+    console = Console()
+
+    # Stylized green blocky banner
+    console.print(justify="center")
 
 def get_images_from_folder(folder_path):
     images = []
