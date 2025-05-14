@@ -15,7 +15,7 @@
 
 ## 🚀 Overview
 
-**MetaWipe** is a simple, fast, and powerful command-line tool that removes all metadata from individual images or entire folders of image files. Built with `Python`, `ExifTool`, and beautiful terminal visuals (`Rich`, `PyFiglet`), it ensures privacy hygiene with style.
+MetaWipe is a simple, fast, and powerful command-line tool that removes all metadata from individual images or entire folders of image files. Built with `Python`, `ExifTool`, and beautiful terminal visuals (`Rich`, `PyFiglet`), it ensures privacy hygiene with style.
 
 ---
 
