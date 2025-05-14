@@ -1,22 +1,21 @@
-Absolutely! Here's a **professional, GitHub-ready `README.md`** template tailored for your project **MetaWipe** – a metadata-wiping CLI tool using `exiftool`. It includes project description, features, setup, usage, visuals, and licensing — ideal for open source or personal branding.
-
----
-
-### ✅ `README.md` for **MetaWipe**
-
 ````markdown
+███████╗███████╗████████╗ █████╗     ██╗    ██╗██╗██████╗ ███████╗███████╗
+██╔════╝██╔════╝╚══██╔══╝██╔══██╗    ██║    ██║██║██╔══██╗██╔════╝██╔════╝
+███████╗█████╗     ██║   ███████║    ██║ █╗ ██║██║██║  ██║█████╗  █████╗  
+╚════██║██╔══╝     ██║   ██╔══██║    ██║███╗██║██║██║  ██║██╔══╝  ██╔══╝  
+███████║███████╗   ██║   ██║  ██║    ╚███╔███╔╝██║██████╔╝███████╗███████╗
+╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝     ╚══╝╚══╝ ╚═╝╚═════╝ ╚══════╝╚══════╝
+
+
 # 🧼 META WIPE
 
-> **Clean images. Clean conscience.**  
+> Clean images. Clean conscience.  
 > Secure your privacy by erasing all embedded metadata from image files — effortlessly.
 
-![meta-wipe-banner](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square) ![meta-wipe-license](https://img.shields.io/github/license/yourusername/metawipe?style=flat-square) ![meta-wipe-status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
-
----
 
 ## 🚀 Overview
 
-**MetaWipe** is a simple, fast, and powerful command-line tool that **removes all metadata** from individual images or entire folders of image files. Built with `Python`, `ExifTool`, and beautiful terminal visuals (`Rich`, `PyFiglet`), it ensures **privacy hygiene** with style.
+**MetaWipe** is a simple, fast, and powerful command-line tool that removes all metadata from individual images or entire folders of image files. Built with `Python`, `ExifTool`, and beautiful terminal visuals (`Rich`, `PyFiglet`), it ensures privacy hygiene with style.
 
 ---
 
@@ -32,10 +31,10 @@ Absolutely! Here's a **professional, GitHub-ready `README.md`** template tailore
 
 ## 📦 Installation
 
-1. **Clone the repo**
+1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/metawipe.git
+git clone https://github.com/Gr3ytrac3/metawipe.git
 cd metawipe
 ````
 
@@ -73,77 +72,21 @@ Then, follow the prompts to provide the path to either:
 
 ---
 
-## 📸 Screenshots
 
-> MetaWipe in action (Banner + Summary):
 
-```
-███████╗███████╗████████╗ █████╗     ██╗    ██╗██╗██████╗ ███████╗███████╗
-██╔════╝██╔════╝╚══██╔══╝██╔══██╗    ██║    ██║██║██╔══██╗██╔════╝██╔════╝
-███████╗█████╗     ██║   ███████║    ██║ █╗ ██║██║██║  ██║█████╗  █████╗  
-╚════██║██╔══╝     ██║   ██╔══██║    ██║███╗██║██║██║  ██║██╔══╝  ██╔══╝  
-███████║███████╗   ██║   ██║  ██║    ╚███╔███╔╝██║██████╔╝███████╗███████╗
-╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝     ╚══╝╚══╝ ╚═╝╚═════╝ ╚══════╝╚══════╝
-```
-
----
-
-## 🔐 Why Metadata Matters
-
-Image metadata may contain:
-
-* Device info
-* GPS location
-* Timestamps
-* Camera serial numbers
-
-🛡️ **MetaWipe helps you stay private and anonymous.**
-
----
-
-## 📄 License
-
-MIT License — see [LICENSE](./LICENSE)
-
----
 
 ## 🤝 Contributions
 
 Pull requests and forks are welcome. If you have ideas to expand MetaWipe (e.g. GUI, drag-and-drop, format converters), feel free to open an issue or PR!
+> “Information is power — gather it wisely, and guard it fiercely.”
 
 ---
+
 
 ## 🙋‍♂️ Author
 
 **CyberDevHQ**
-🛠️ Offensive Security Artisan | Builder of Digital Fortresses
-💬 [Say hi on X (Twitter)](https://x.com/yourusername)
-🔗 \[LinkedIn / Portfolio / Blog coming soon...]
+ Offensive Security Artisan | Builder of Digital Fortresses
 
 ---
-
-## 🧠 Inspired by
-
-* Edward Snowden's privacy activism
-* The philosophy: *“Privacy is freedom.”*
-
----
-
-> “Information is power — gather it wisely, and guard it fiercely.”
-
-```
-
----
-
-### ✅ What to do next?
-1. Save this file as `README.md` in your project root.
-2. Replace placeholder URLs (`yourusername`, `Twitter`, `LinkedIn`) with your actual links.
-3. Add a `requirements.txt`:
-
-```
-
-rich
-pyfiglet
-
-```
 © 2025 RedKernel
