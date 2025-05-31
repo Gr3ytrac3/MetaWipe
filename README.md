@@ -86,7 +86,7 @@ Pull requests and forks are welcome. If you have ideas to expand MetaWipe (e.g. 
 ## 🙋‍♂️ Author
 
 **CyberDevHQ**
- Offensive Security Artisan | Builder of Digital Fortresses
+ Offensive Security Artisan | Kernel Security Engineer
 
 ---
 © 2025 RedKernel
