@@ -5,30 +5,27 @@
 ╚════██║██╔══╝     ██║   ██╔══██║    ██║███╗██║██║██║  ██║██╔══╝  ██╔══╝  
 ███████║███████╗   ██║   ██║  ██║    ╚███╔███╔╝██║██████╔╝███████╗███████╗
 ╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝     ╚══╝╚══╝ ╚═╝╚═════╝ ╚══════╝╚══════╝
+````
 
-
-### ✅ `README.md` for **MetaWipe**
-
-````markdown
-# 🧼 META WIPE
+# META WIPE
 
 > **Clean images. Clean conscience.**  
 > Secure your privacy by erasing all embedded metadata from image files — effortlessly.
 
 
-## 🚀 Overview
+## Overview
 
 MetaWipe is a simple, fast, and powerful command-line tool that removes all metadata from individual images or entire folders of image files. Built with `Python`, `ExifTool`, and beautiful terminal visuals (`Rich`, `PyFiglet`), it ensures privacy hygiene with style.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🖼️ Wipe metadata from a single image
-- 📁 Recursively clean all images in a folder
-- ✅ Verifies whether metadata was fully removed
-- 🖥️ Stylish terminal interface with banner and emojis
-- 💡 Built using `exiftool` (must be installed)
+- Wipe metadata from a single image
+- Recursively clean all images in a folder
+- Verifies whether metadata was fully removed
+- Stylish terminal interface with banner and emojis
+- Built using `exiftool` (must be installed)
 
 ---
 
@@ -58,7 +55,7 @@ brew install exiftool                     # macOS
 
 ## 🧰 Usage
 
-### 🔹 Run MetaWipe
+### Run MetaWipe
 
 ```bash
 python3 metawipe.py
@@ -75,29 +72,8 @@ Then, follow the prompts to provide the path to either:
 
 ---
 
-
-
-```
-███████╗███████╗████████╗ █████╗     ██╗    ██╗██╗██████╗ ███████╗███████╗
-██╔════╝██╔════╝╚══██╔══╝██╔══██╗    ██║    ██║██║██╔══██╗██╔════╝██╔════╝
-███████╗█████╗     ██║   ███████║    ██║ █╗ ██║██║██║  ██║█████╗  █████╗  
-╚════██║██╔══╝     ██║   ██╔══██║    ██║███╗██║██║██║  ██║██╔══╝  ██╔══╝  
-███████║███████╗   ██║   ██║  ██║    ╚███╔███╔╝██║██████╔╝███████╗███████╗
-╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝     ╚══╝╚══╝ ╚═╝╚═════╝ ╚══════╝╚══════╝
-```
-
 ## 🤝 Contributions
 
 Pull requests and forks are welcome. If you have ideas to expand MetaWipe (e.g. GUI, drag-and-drop, format converters), feel free to open an issue or PR!
 > “Information is power — gather it wisely, and guard it fiercely.”
 
----
-
-
-## 🙋‍♂️ Author
-
-**CyberDevHQ**
- Offensive Security Artisan | Kernel Security Engineer
-
----
-© 2025 RedKernel
